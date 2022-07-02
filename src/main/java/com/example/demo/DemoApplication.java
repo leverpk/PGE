@@ -27,8 +27,8 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		Category teams = categoryRepository.save(Category.builder()
-			.categoryName("Drużyny").build());
+			.name("Drużyny").build());
 		Category table = categoryRepository.save(Category.builder()
-			.categoryName("Tabela").build());
+			.name("Tabela").build());
 	}
 }

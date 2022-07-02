@@ -15,12 +15,16 @@ public class CategoryController {
 
     private final CategoryService categoryService;
 
-    @GetMapping("/{id}")
-    public String getCategories(Model model, @PathVariable Long id) {
+    @GetMapping("{name}")
+    public String getCategories(Model model, @PathVariable String name) {
         model.addAttribute("categories", categoryService.findAllCategories());
-        model.addAttribute("category", categoryService.getById(id));
-        model.addAttribute("categoryId", id);
-        return "/product/list";
+        model.addAttribute("category", categoryService.getByName(name));
+        model.addAttribute("name", name);
+        if (name.equals("drużyny")){
+            return "teams";
+        } else return "table";
     }
+
+
 
 }

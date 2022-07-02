@@ -18,11 +18,19 @@
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li th:each="category:${categories}" class="nav-item">
-                    <a class="nav-link" th:href="@{'/category/' + ${category.getCategoryId}}" th:text="${category.getCategoryName()}"><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" th:href="@{'/category/' + ${category.getName.toLowerCase()}}" th:text="${category.getName()}"><span class="sr-only">(current)</span></a>
                 </li>
             </ul>
+            <img src="https://media.speedwayekstraliga.pl/teams/9_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/8_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/2_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/6_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/14_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/15_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/1_2022_128x128.png?c=1656591588" width="45px" height="45px">
+            <img src="https://media.speedwayekstraliga.pl/teams/3_2022_128x128.png?c=1656591588" width="45px" height="45px">
             <form class="d-flex">
-                <input class="form-control me-3" type="search" placeholder="Wyszukaj..." aria-label="Search">
+                <input class="form-control me-3 ms-3" type="search" placeholder="Wyszukaj..." aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Szukaj</button>
             </form>
         </div>

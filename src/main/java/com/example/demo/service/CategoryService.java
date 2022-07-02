@@ -5,5 +5,5 @@ import java.util.List;
 
 public interface CategoryService {
     List<Category> findAllCategories();
-    Category getById(Long id);
+    Category getByName(String name);
 }

@@ -18,7 +18,7 @@ public class JpaCategoryService implements CategoryService{
     }
 
     @Override
-    public Category getById(Long id) {
-        return categoryRepository.getById(id);
+    public Category getByName(String name) {
+        return categoryRepository.getByName(name);
     }
 }
