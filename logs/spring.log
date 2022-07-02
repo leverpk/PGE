@@ -1,0 +1,75 @@
+2022-07-02 14:37:09.559  INFO 21828 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-RC24UJV with PID 21828 (D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy\target\classes started by kamil in D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy)
+2022-07-02 14:37:09.563  INFO 21828 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:37:10.270  INFO 21828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:37:10.352  INFO 21828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:37:11.035  INFO 21828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 14:37:11.044  INFO 21828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:37:11.044  INFO 21828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-02 14:37:11.152  INFO 21828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:37:11.152  INFO 21828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1519 ms
+2022-07-02 14:37:11.195  INFO 21828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 14:37:11.351  INFO 21828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 14:37:11.361  INFO 21828 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-02 14:37:11.566  INFO 21828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 14:37:11.626  INFO 21828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-02 14:37:11.801  INFO 21828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 14:37:11.944  INFO 21828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-02 14:37:12.440  INFO 21828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 14:37:12.447  INFO 21828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:37:12.784  WARN 21828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 14:37:12.940  INFO 21828 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-02 14:37:13.142  INFO 21828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 14:37:13.150  INFO 21828 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.145 seconds (JVM running for 4.639)
+2022-07-02 14:37:13.223  INFO 21828 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 14:37:13.224  WARN 21828 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 14:37:13.224 ERROR 21828 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 14:38:07.083  INFO 16020 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-RC24UJV with PID 16020 (D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy\target\classes started by kamil in D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy)
+2022-07-02 14:38:07.089  INFO 16020 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:38:07.753  INFO 16020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:38:07.809  INFO 16020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:38:08.525  INFO 16020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 14:38:08.534  INFO 16020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:38:08.534  INFO 16020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-02 14:38:08.646  INFO 16020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:38:08.646  INFO 16020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1492 ms
+2022-07-02 14:38:08.689  INFO 16020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 14:38:08.851  INFO 16020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 14:38:08.860  INFO 16020 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-02 14:38:09.058  INFO 16020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 14:38:09.125  INFO 16020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-02 14:38:09.339  INFO 16020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 14:38:09.490  INFO 16020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-02 14:38:09.975  INFO 16020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 14:38:09.981  INFO 16020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:38:10.303  WARN 16020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 14:38:10.454  INFO 16020 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-02 14:38:10.685  INFO 16020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 14:38:10.694  INFO 16020 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.076 seconds (JVM running for 4.547)
+2022-07-02 14:38:10.777  INFO 16020 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 14:38:10.777  WARN 16020 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 14:38:10.777 ERROR 16020 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 15:28:33.167  INFO 18076 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-RC24UJV with PID 18076 (D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy\target\classes started by kamil in D:\Programowanie\Projekty\MOJE PROJEKTY\zobaczymy)
+2022-07-02 15:28:33.172  INFO 18076 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 15:28:33.886  INFO 18076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 15:28:33.943  INFO 18076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2022-07-02 15:28:34.605  INFO 18076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 15:28:34.614  INFO 18076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 15:28:34.614  INFO 18076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-02 15:28:34.724  INFO 18076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 15:28:34.724  INFO 18076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2022-07-02 15:28:34.768  INFO 18076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 15:28:34.934  INFO 18076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 15:28:34.945  INFO 18076 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-02 15:28:35.153  INFO 18076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 15:28:35.210  INFO 18076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-02 15:28:35.392  INFO 18076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 15:28:35.544  INFO 18076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-02 15:28:36.032  INFO 18076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 15:28:36.039  INFO 18076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 15:28:36.377  WARN 18076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 15:28:36.567  INFO 18076 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-02 15:28:36.834  INFO 18076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 15:28:36.844  INFO 18076 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.147 seconds (JVM running for 4.615)
+2022-07-02 15:28:36.937  INFO 18076 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 15:28:36.938  WARN 18076 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!
+2022-07-02 15:28:36.938 ERROR 18076 --- [main] com.example.demo.DemoApplication         : We've just greeted the user!

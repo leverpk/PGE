@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:insert="main::head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PGE Ekstraliga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-dark text-light">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<nav th:replace="main::navigation(categories=${categories})"></nav>
+<div class="bg-image hover-overlay ripple"
+     data-mdb-ripple-color="light">
+    <img src="https://i.ibb.co/j5SFHwy/Screenshot-2.jpg" class="rounded mx-auto d-block mt-4 mb-4" width="600px" height="240px">
+    <div class="mask" style="background: rgba(251, 251, 251, 0.35)"></div>
+</div>
+<div class="m-4 p-4 text-center border border-5 rounded-pill hover-overlay">
+    <h1 class="display-3 font-weight-bold">Witaj na stronie poświęconej PGE Ekstralidze</h1>
+</div>
+
+</body>
+</html>

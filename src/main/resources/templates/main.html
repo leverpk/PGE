@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:fragment="head" >
+    <meta charset="UTF-8">
+    <title>PGE Ekstraliga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+<nav th:fragment="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <img src="https://i.ibb.co/j5SFHwy/Screenshot-2.jpg" width="120px" height="50px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-2 ps-4 fs-4" >
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li th:each="category:${categories}" class="nav-item">
+                    <a class="nav-link" th:href="@{'/category/' + ${category.getCategoryId}}" th:text="${category.getCategoryName()}"><span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-3" type="search" placeholder="Wyszukaj..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Szukaj</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
